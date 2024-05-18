@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    padding: 0px;
+}
+.backgroundimage{
+    height: 100vh;
+    width: 85%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("image1.jpg");
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+}
+.navbar{
+    background-color: transparent;
+    height: 80px ;
+    color: white;
+    display: flex;
+    width:1100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("logo.png");
+    height: 50px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.buttons{
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.button1{
+color: white;
+background-color: #db0001;
+background-color: transparent;
+align-items: center;
+border: 1px solid white;
+padding: 7px 10px;
+border-radius: 4px;
+}
+.button2{
+    background-color: #db0001;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 20px;
+    font-size: 12px;
+    margin-left: 10px;
+    border-color: white;
+    border-width: 1px;
+}
+.paragraph{
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mailid{
+background-color: transparent;
+min-height: 16px;
+min-width: 35px;
+line-height: 1.5rem;
+padding: 1.5rem 1rem 0.5rem;
+border-radius: 4px;
+border-color: white;
+border-width: 2px;
+display: block;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+}
+.start{
+    background-color: #db0001;
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 14px;
+    margin-top: 2px;
+}
+ .backgroundimage2{
+    height: 100vh;
+    width: 85%;
+    background-image: url("image2.webp");
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.text2{
+    flex-basis: 50%;
+margin-bottom: 20px;
+font-size: larger;
+}
+.feature2{
+flex-basis: 50%;
+margin-bottom: 20px;
+background-size: cover;
+}
+.backgroundimage3{
+    height: 100vh;
+    width: 85%;
+    background-image: url("image2.webp");
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.text3{
+    flex-basis: 50%;
+margin-bottom: 20px;
+font-size: larger;
+}
+.feature3{
+flex-basis: 50%;
+margin-bottom: 20px;
+background-size: cover;
+}
+.backgroundimage4{
+    height: 100vh;
+    width: 85%;
+    background-image: url("image2.webp");
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.text4{
+    flex-basis: 50%;
+margin-bottom: 20px;
+font-size: larger;
+}
+.feature4{
+flex-basis: 50%;
+margin-bottom: 20px;
+background-size: cover;
+}
+.backgroundimage5{
+    height: 100vh;
+    width: 85%;
+    background-image: url("image2.webp");
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.backgroundimage6{
+    height: 100vh;
+    width: 85%;
+    background-image: url("image2.webp");
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    color: white;
+}
+.faq{
+    font-size: 40px;
+    font-weight: 500px;
+}
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordian li label{
+display: flex;
+align-items: center;
+padding: 20px;
+font-size: 18px;
+font-weight: 500;
+background: #303030;
+margin-bottom: 2px;
+position: relative;
+}
+.label::after{
+content: '+';
+font-size: 34px;
+position: absolute;
+right: 20px;
+}
+.backgroundimage7{
+    height: 100vh;
+    width: 85%;
+    background-image: url("image2.webp");
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    color: white;
+}
+.para2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+.foot-panel{
+    background-color: #222f3d;
+    color: white;
+    height: 700;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.netflix{
+    color: grey;
+    margin-bottom: 20px;
+}
